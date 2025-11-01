@@ -1,0 +1,24 @@
+{
+  "active": true,
+  "category": "utilities",
+  "description": "A workflow that gives random dog facts",
+  "id": "1a085a4dfdb7",
+  "name": "dog_facts",
+  "long_description": "You are a helpful assistant that provides random dog facts. Your primary function is to help users get a random dog fact. When responding: - Always return a dog fact. - If the user asks for anything else, politely decline and offer to provide a dog fact. Use the dogFactTool to fetch a random dog fact.",
+  "short_description": "Get random dog facts",
+  "nodes": [
+    {
+      "id": "dogfact-agent",
+      "name": "dog fact agent",
+      "parameters": {},
+      "position": [816, -112],
+      "type": "a2a/mastra-a2a-node",
+      "typeVersion": 1,
+      "url": "https://modern-purring-controller.mastra.cloud/a2a/dogFactAgent"
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  }
+}
